@@ -1,0 +1,71 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+
+$dif:				5%;
+
+$background:		#EAEDF2;
+$background-strong:	darken($background, $dif);
+$background-light:	lighten($background, $dif);
+
+$main:				#409797;
+$main-strong:		darken($main, $dif);
+$main-light:		lighten($main, $dif);
+$secondary:			complement($main);
+$secondary-strong:	darken($secondary, $dif);
+$secondary-light:	lighten($secondary, $dif);
+
+$terciary:			#fff;
+$terciary-strong:	#fff;
+
+// defaults
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+$black:             #323944;
+$white:             #fff;
+
+$light-gray:        #f8f9fa;
+$gray:              #eaedf2;
+$text-color:        #5c6b80;
+$meta-gray:         #9fa6b4;
+
+$tan:               #eceee5;
+
+$green:             #7dd667;
+$blue:              #2980b9;
+
+$link-color:		#439E9E;
+$link-hover:        darken($link-color, 9%);
+
+$title:				lighten(complement($link-color), 20%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+$nav-back:			darken($link-color, 2%);
+$nav-text:			lighten($blue, 40%);
+
+// tables
+
+$table-border:		$white;
+$table-items:		darken($light-gray, 15%);
+$table-inline:		#fff;
+$table-back:		$light-gray;
+$table-back-alt:	darken($table-back, 10%);
+$table-caption:		$meta-gray;
+
+// header fix
+$header-heigth: 100%;
+$content-top: $header-heigth - 50%;
