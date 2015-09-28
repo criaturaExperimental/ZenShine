@@ -78,6 +78,10 @@
 
 				</div>
 				<div id="scrolldown">
-					<a scrollTo="main" href="#" title="Down" class="scroll">Down</a>
+					<a scrollTo="main" href="#" title="Down" class="scroll">
+						<div id="scrollwrap">
+							<img src="<?php echo get_template_directory_uri(); ?>/library/images/nav/ArrowDown.png" alt="ArrowDown" />
+						</div>
+					</a>
 				</div>
 			</header>

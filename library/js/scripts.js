@@ -121,12 +121,11 @@ jQuery(window).scroll(function(e){
 jQuery(document).ready(function($) {
 	parallax();
 	jQuery(document).ready(function(){
-    jQuery('a.scroll').click(function()
-    {
+    jQuery('a.scroll').click(function(){
         var target_offset = jQuery("#"+jQuery(this).attr('scrollTo')).offset();
         var target_top = target_offset.top;
 
-        jQuery('html, body').animate({scrollTop:target_top}, 1250);
+        jQuery('html, body').animate({scrollTop:target_top}, 1000);
 
         return false;
     });
