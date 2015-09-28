@@ -110,7 +110,6 @@ function parallax(){
     var scrolled = jQuery(window).scrollTop();
     jQuery('.header').css('top', -(scrolled * 0.2) + 'px');
 		jQuery('#inner-header').css('top', -(scrolled * 0.15) + 'px');
-
 }
 
 
@@ -120,8 +119,18 @@ jQuery(window).scroll(function(e){
 
 
 jQuery(document).ready(function($) {
-
 	parallax();
+	jQuery(document).ready(function(){
+    jQuery('a.scroll').click(function()
+    {
+        var target_offset = jQuery("#"+jQuery(this).attr('scrollTo')).offset();
+        var target_top = target_offset.top;
+
+        jQuery('html, body').animate({scrollTop:target_top}, 1250);
+
+        return false;
+    });
+});
   /*
    * Let's fire off the gravatar function
    * You can remove this if you don't need it

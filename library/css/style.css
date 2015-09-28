@@ -2567,10 +2567,18 @@ you can add resource intensive styles.
     border-radius: 0px 0px 400px 0px;
   }
 
+  /* line 26, ../scss/breakpoints/_1030up.scss */
+  #scrolldown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  /* line 30, ../scss/breakpoints/_1030up.scss */
+  /* line 37, ../scss/breakpoints/_1030up.scss */
   .featured {
     float: none;
     border-radius: 300px;
@@ -2580,7 +2588,7 @@ you can add resource intensive styles.
     transition: all 1s ease-out 0s;
   }
 
-  /* line 38, ../scss/breakpoints/_1030up.scss */
+  /* line 45, ../scss/breakpoints/_1030up.scss */
   .featured:hover {
     border-radius: 30px;
     width: 100%;
