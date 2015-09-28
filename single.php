@@ -1,6 +1,6 @@
 <?php get_header( 'single' ); ?>
 
-			<div id="content">
+			<div id="content-single">
 
 				<div id="inner-content" class="wrap cf">
 

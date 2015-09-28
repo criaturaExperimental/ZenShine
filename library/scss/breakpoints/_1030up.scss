@@ -16,11 +16,14 @@ be seen on the Desktop.
 /*********************
 HEADER STYLES
 *********************/
-
 #inner-header {
-	position: fixed;
+  	position: fixed;
+}
+
+
+.inner-header {
 	background-color: rgba(50,50,50,0.3);
-	border-radius: 0px 0px 400px 0px;
+	border-radius: 0px 0px 400px 400px;
 }
 
 #scrolldown {
