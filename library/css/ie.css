@@ -457,14 +457,18 @@ be seen on the Desktop.
 /*********************
 HEADER STYLES
 *********************/
-/* line 20, ../scss/breakpoints/_1030up.scss */
+/* line 19, ../scss/breakpoints/_1030up.scss */
 #inner-header {
   position: fixed;
-  background-color: rgba(50, 50, 50, 0.3);
-  border-radius: 0px 0px 400px 0px;
 }
 
-/* line 26, ../scss/breakpoints/_1030up.scss */
+/* line 24, ../scss/breakpoints/_1030up.scss */
+.inner-header {
+  background-color: rgba(50, 50, 50, 0.3);
+  border-radius: 0px 0px 400px 400px;
+}
+
+/* line 29, ../scss/breakpoints/_1030up.scss */
 #scrolldown {
   width: 100%;
   text-align: center;
@@ -472,7 +476,7 @@ HEADER STYLES
   top: 75%;
   z-index: 20;
 }
-/* line 33, ../scss/breakpoints/_1030up.scss */
+/* line 36, ../scss/breakpoints/_1030up.scss */
 #scrolldown #scrollwrap {
   margin: 0 auto;
   padding-top: 22px;
@@ -481,11 +485,11 @@ HEADER STYLES
   border-radius: 400px;
   background-color: rgba(50, 50, 50, 0.5);
 }
-/* line 41, ../scss/breakpoints/_1030up.scss */
+/* line 44, ../scss/breakpoints/_1030up.scss */
 #scrolldown a {
   outline: none;
 }
-/* line 44, ../scss/breakpoints/_1030up.scss */
+/* line 47, ../scss/breakpoints/_1030up.scss */
 #scrolldown img {
   width: 50px;
 }
@@ -493,7 +497,7 @@ HEADER STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 53, ../scss/breakpoints/_1030up.scss */
+/* line 56, ../scss/breakpoints/_1030up.scss */
 .featured {
   float: none;
   border-radius: 300px;
@@ -503,7 +507,7 @@ POSTS & CONTENT STYLES
   transition: all 1s ease-out 0s;
 }
 
-/* line 61, ../scss/breakpoints/_1030up.scss */
+/* line 64, ../scss/breakpoints/_1030up.scss */
 .featured:hover {
   border-radius: 30px;
   width: 100%;

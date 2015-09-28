@@ -54,39 +54,25 @@
 						<?php if (has_post_thumbnail( $post->ID )) {
 							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' ); ?>
 						<style type="text/css">
-							#header-single{background: url(<?php echo $image_url[0]; ?>) ;
-								background-repeat: no-repeat;
-								background-attachment: fixed;
-								background-clip: border-box;
-								background-origin: padding-box;
-								background-size: cover;
-								background-position: center, center;
-								background-color: #54B6B6;
+							#header-single{background: url(<?php echo $image_url[0]; ?>);
 							}
 						</style>
 				        <?php }
 					       else{ $image_url = get_bloginfo( 'template_directory') . '/library/images/default/default.png'; ?>
 					       <style type="text/css">
 							#header-single{background: url(<?php echo $image_url; ?>);
-								background-repeat: no-repeat;
-								background-attachment: fixed;
-								background-clip: border-box;
-								background-origin: padding-box;
-								background-size: cover;
-								background-position: center, center;
-								background-color: $black;
 							}
-							</style> 
-						<?php } endwhile;   
+							</style>
+						<?php } endwhile;
 					     endif;?>
 
-				<div id="inner-header" class="wrap cf">
+				<div id="inner-header-single" class="inner-header wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<p id="logo" class="h1 banner_text" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<p id="bloginfo" class="banner_text"><?php bloginfo('description'); ?></p>
+					<!-- <?php // if you'd like to use the site description you can un-comment it below ?>
+					<p id="bloginfo" class="banner_text"><?php bloginfo('description'); ?></p> -->
 
 
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
