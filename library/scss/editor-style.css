@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Lucas deGomez
+Author: Lucas deGomez
 
 Stylesheet: TinyMCE Editor
 
@@ -190,30 +190,30 @@ body#tinymce.wp-editor {
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Variables
-  
+
   Here is where we declare all our variables like colors, fonts,
   base values, and defaults. We want to make sure this file ONLY
   contains variables that way our files don't get all messy.
   No one likes a mess.
-  
+
   ******************************************************************/
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Typography
-  
+
   Need to import a font or set of icons for your site? Drop them in
   here or just use this to establish your typographical grid. Or not.
   Do whatever you want to...GOSH!
-  
+
   Helpful Articles:
   http://trentwalton.com/2012/06/19/fluid-type/
   http://ia.net/blog/responsive-typography-the-basics/
   http://alistapart.com/column/responsive-typography-is-a-physical-discipline
-  
+
   ******************************************************************/
   /*********************
   FONT FACE (IN YOUR FACE)
@@ -252,26 +252,26 @@ body#tinymce.wp-editor {
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Sass Functions
-  
+
   You can do a lot of really cool things in Sass. Functions help you
   make repeated actions a lot easier. They are really similar to mixins,
   but can be used for so much more.
-  
+
   Anyway, keep them all in here so it's easier to find when you're
   looking for one.
-  
+
   For more info on functions, go here:
   http://sass-lang.com/documentation/Sass/Script/Functions.html
-  
+
   ******************************************************************/
   /*********************
   COLOR FUNCTIONS
   These are helpful when you're working
   with shadows and such things. It's essentially
   a quicker way to write RGBA.
-  
+
   Example:
   box-shadow: 0 0 4px black(0.3);
   compiles to:
@@ -282,11 +282,11 @@ body#tinymce.wp-editor {
   If you're creating a responsive site, then
   you've probably already read
   Responsive Web Design: http://www.abookapart.com/products/responsive-web-design
-  
+
   Here's a nice little helper function for calculating
   target / context
   as mentioned in that book.
-  
+
   Example:
   width: cp(650px, 1000px);
   or
@@ -297,23 +297,23 @@ body#tinymce.wp-editor {
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Mixins Stylesheet
-  
+
   This is where you can take advantage of Sass' great features: Mixins.
   I won't go in-depth on how they work exactly,
   there are a few articles below that will help do that. What I will
   tell you is that this will help speed up simple changes like
   changing a color or adding CSS3 techniques gradients.
-  
+
   A WORD OF WARNING: It's very easy to overdo it here. Be careful and
   remember less is more.
-  
+
   Helpful:
   http://sachagreif.com/useful-sass-mixins/
   http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
   http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
-  
+
   ******************************************************************/
   /*********************
   TRANSITION
