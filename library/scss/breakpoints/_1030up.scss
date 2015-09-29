@@ -18,12 +18,17 @@ HEADER STYLES
 *********************/
 #inner-header {
   	position: fixed;
+    border-radius: 0px 0px 400px 0px !important;
 }
 
 
 .inner-header {
 	background-color: rgba(50,50,50,0.3);
 	border-radius: 0px 0px 400px 400px;
+}
+
+.scroll {
+  visibility: visible;
 }
 
 #scrolldown {
